@@ -1,6 +1,9 @@
 MAE 578: Haptic Systems for Virtual Reality and Teleoperation
+
 Problem Set 4: Surface Properties (Team Activity)
+
 Due Date: 3/12/2018 (for hard copy submission)
+
 Prof. P. Marayong, CSULB, Spring 2018
 
 Per group, submit a printout of your edited C++ code (between the lines "`START EDITING HERE`" and "`STOP EDITING HERE`") and submit the same code snippet as a .doc or .txt file in the respective Dropbox on Beachboard. Clearly separate and label the code snippets from each problem on the printout and in the electronic file. To grade your work, I will copy and paste your code snippets into my own .cpp file and test the haptic feedback by hand. I will also look at the code to evaluate the efficiency, generality, and elegance of your solution. Make sure your code includes proper comments. Note that the visual representation of the planes you create in this lab is not rendered. However, you should be able to feel the plane(s) through the haptic device.
