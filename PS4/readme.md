@@ -15,6 +15,8 @@ For each surface property, explain the algorithm you used and answer the questio
 
 4. (15 pts.) Create a perfectly flat virtual wall that feels like it has a dip/valley/trough/bump in the middle. The “dip” should be sufficiently wide and extruded to infinity similar to the figure below. Use Minsky’s local gradient technique of generating forces parallel to the surface to generate the sensation of passing over a “dip”. You can choose the function for the shape of the dip. (With the 3-dof Omni you could create a real dip, but the technique used here could also be implemented on a 1-dof or 2-dof device.) Write an explanation (including sketches and equations) explaining what you did and the geometry of the dip that you created.
 
+![Image of Dip](https://github.com/machavezg9/MAE578/blob/master/PS4/PS4-1.png)
+
 5. (15 pts.) Create a surface that feels harder than the maximum stiffness that can be stably displayed by the Omni. Do this by generating a decaying sinusoid upon downward vertical impact with the horizontal virtual wall. Select values for the amplitude-scaling factor and decay rate that generate a compelling sensation of contact. Note that the time used should be the actual time of each haptic update loop. Write an explanation (including sketches and equations) explaining what you did.
 
 Note that to solve these problems, you may need access to variables that were not in the example code you started with (such as velocity). For example, the current code obtains the position vector with the command:
